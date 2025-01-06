@@ -1,0 +1,9 @@
+/DecisionTree_model.joblib
+/Ensemble_model.joblib
+/RandomForest_model.joblib
+/GradientBoosting_model.joblib
+/LinearRegression_model.joblib
+/model_r2_scores.joblib
+/model_mae_scores.joblib
+/model_rmse_scores.joblib
+__pycache__/
