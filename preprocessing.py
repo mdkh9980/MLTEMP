@@ -12,7 +12,7 @@ import joblib
 from ensemble_model import EnsembleModel  # Assuming EnsembleModel is implemented correctly
 
 # Load the dataset
-data = pd.read_csv('demo.csv')
+data = pd.read_csv('weatherHistory30k.csv')
 
 # Preprocessing
 data['Formatted Date'] = pd.to_datetime(data['Formatted Date'])
