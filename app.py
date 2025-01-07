@@ -48,7 +48,7 @@ st.write("Input Data:", input_df)
 # Prediction and comparison
 if st.button("Predict"):
     # Simulate a true target value (optional)
-    true_value = st.number_input("True Temperature (optional, for accuracy metrics)", value=25.0, step=0.1)
+    true_value = st.number_input("True Temperature (optional, for accuracy metrics)", value=15.0, step=0.1)
 
     # Get predictions from the best model
     prediction = best_model.predict(input_df)[0]
